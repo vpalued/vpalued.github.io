@@ -1,0 +1,103 @@
+//
+// Grid system
+// --------------------------------------------------
+
+
+// Container widths
+//
+// Set the container width, and override it for fixed navbars in media queries.
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left:  0;
+  padding-right: 0;
+  @include clearfix;
+}
+
+
+
+
+
+// Row
+//
+// Rows contain and clear the floats of your columns.
+
+.row {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left:  0;
+  padding-right: 0;
+  @include clearfix;
+}
+
+.row-padding{
+  padding:0 1rem;
+}
+
+// Columns
+//
+// Common styles for small and large grid columns
+
+.col{
+  float: left;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+  @include clearfix;
+}
+
+.col-10{
+  width: 10%;
+}
+.col-20{
+  width: 20%;
+}
+.col-25{
+  width: 25%;
+}
+.col-30{
+  width: 30%;
+}
+.col-33{
+  width: 33.3333%;
+}
+.col-40{
+  width: 40%;
+}
+.col-50{
+  width: 50%;
+}
+.col-60{
+  width: 60%;
+}
+.col-67{
+  width: 66.6666%;
+}
+.col-70{
+  width: 70%;
+}
+.col-75{
+  width: 75%;
+}
+.col-80{
+  width: 80%;
+}
+.col-90{
+  width: 90%;
+}
+
+
+.clearfix:after{
+  content:"\20";
+  display:block;
+  height:0;
+  clear:both;
+}
+
+
+
+
+

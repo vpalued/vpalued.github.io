@@ -1,0 +1,14 @@
+.banner{
+	width:100%;
+	padding:0.8rem 0;
+	background:$brand-yellow;
+	color:$brand-red;
+	text-align:center;
+	font-size:1.2rem;
+}
+@media screen and (max-width: 320px){
+	.banner{
+		padding:0.8rem 0;
+		font-size:1.2rem;
+	}
+}

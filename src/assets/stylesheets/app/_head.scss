@@ -1,0 +1,83 @@
+.head{
+	position:relative;
+	width:100%;
+	height:5rem;
+	line-height:5rem;
+	text-align:center;
+	border-bottom:1px solid $grey-light;
+	background:$grey-top;
+	color:$grey-darker;
+	.h1{
+		font-size:2.1rem;
+	}
+	.h2{
+		font-size:1.9rem;
+	}
+	.left-option{
+		position: absolute;
+		left: 0rem;
+		top: 0rem;
+		width: 4rem;
+		height: 100%;
+		
+	}
+	.right-option{
+		position: absolute;
+		right: 0rem;
+		top: 0rem;
+		width: 4rem;
+		height: 100%;
+	}
+	.back{
+		font-size: 1.4rem;
+		text-align: center;
+		line-height: 5rem;
+		font-weight:bold;
+		color: $grey;
+	}
+	.back:active{
+		color: $brand-red;
+	}
+	.close{
+		font-size: 1.6rem;
+		text-align: center;
+		line-height: 5rem;
+		color: $grey;
+	}
+	.close:active{
+		color: $brand-red;
+	}
+	.head-btn{
+		position:absolute;
+		bottom:1rem;
+		right: 1rem;
+		padding: 0.3rem 0.8rem ;
+		text-align: center;
+		font-size: 1.4rem;
+		line-height: 1.4rem;
+		color: $brand-red;
+		border:1px solid $brand-red;
+		border-radius:2px;
+		
+	}
+}
+@media screen and (max-width: 320px){
+	.head{
+		height:4rem;
+		line-height:4rem;
+		.h1{
+			font-size:1.9rem;
+		}
+		.h2{
+			font-size:1.7rem;
+		}
+		.back{
+			line-height: 4rem;
+		}
+	
+		.close{
+			line-height: 4rem;
+		}
+		
+	}
+}

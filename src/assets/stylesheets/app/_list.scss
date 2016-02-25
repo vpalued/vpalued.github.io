@@ -1,0 +1,30 @@
+.list{
+	float:left;
+	width:100%;
+	padding:0 1rem;
+	@include clearfix;
+	.item{
+		float: left;
+		width: 100%;
+		padding: 2rem 1rem;
+		border-top: 1px solid $grey-light;
+		border-bottom: 1px solid $grey-light;
+		margin-top: -1px;
+		font-size: 1.4rem;
+		color: $grey-dark;
+		background: #fff;
+		@include clearfix;
+	}
+	
+	.noborder{
+		border:none;
+	}
+	
+	.active{
+		background: $grey-lighter-2;
+		color: $brand-red;
+	}
+	.touching{
+		background: $touching-bg;
+	}
+}

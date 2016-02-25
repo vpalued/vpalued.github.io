@@ -1,0 +1,165 @@
+.ipt-controll{
+	width:100%;
+	background:#fff;
+	padding:1.2rem 1rem;
+	.ipt-holder{
+		position:relative;
+		width: 100%;
+		height: 3rem;
+		line-height: 3rem;
+		
+		.ipt-3-left{
+			position:relative;
+			float: left;
+			width: 22%;
+			height: 100%;
+			font-size: 1.5rem;
+			color:$grey-dark;
+			@include clearfix;
+		}
+		.ipt-3-mid{
+			position:relative;
+			float: left;
+			width: 48%;
+			height: 100%;
+			@include clearfix;
+		}
+		.ipt-3-right{
+			position:relative;
+			float: left;
+			width: 30%;
+			height: 100%;
+			@include clearfix;
+		}
+
+		.ipt-2-left{
+			position:relative;
+			float: left;
+			width: 22%;
+			height: 100%;
+			font-size: 1.5rem;
+			color:$grey-dark;
+			@include clearfix;
+		}
+		.ipt-2-right{
+			position:relative;
+			float: left;
+			width: 78%;
+			height: 100%;
+			span{
+				font-size: 1.6rem;
+				color:$grey-dark;
+			}
+			@include clearfix;
+		}
+		.v-btn-link-holder{
+			text-align: center;
+		}
+		.v-btn-link{
+			height: 100%;
+			text-align:center;
+			border:none;
+			text-align:center;
+			background:#fff;
+			color: $brand-red;
+			font-size: 1.4rem;
+			
+			//-webkit-tap-highlight-color:rgba(242,19,119,0);
+		}
+		.ipt-sp-v-line{
+			border-left:1px solid $grey-light;
+		}
+		.v-btn-link-disabled{
+			color: $grey;
+		}
+		.v-ipt{
+			border:none;
+			width: 100%;
+			height: 100%;
+			font-size: 1.4rem;
+			color:$grey-dark;
+			background:#fff;
+			padding-left:1rem;
+			padding-right:2rem;
+			height: 3rem;
+			  &,
+			  &:active,
+			  &.active {
+			    &:focus,
+			    &.focus {
+			      //@include tab-focus;
+			      background: $grey-lighter;
+			    }
+			  }
+
+			  &:hover,
+			  &:focus,
+			  &.focus {
+			    text-decoration: none;
+			  }
+
+			  &:active,
+			  &.active {
+			    outline: 0;
+			    background-image: none;
+			    //box-sizing:inset 0 3px 5px rgba(0,0,0,.125);
+			  }
+		}
+		.ipt-tip{
+			position:absolute;
+			top: 0;
+			right: 0;
+			width: 3rem;
+			height: 3rem;
+			font-size: 1.6rem;
+			text-align: center;
+			color: $warm-gery;
+		}
+		.del{
+			position:absolute;
+			right: 0rem;
+			top:0rem;
+			height: 3rem;
+			width: 3rem;
+			text-align: center;
+			line-height: 3rem;
+			font-size: 1.4rem;
+			color: $grey;
+		}
+		.msg-show{
+			position:absolute;
+			bottom: -3.4rem;
+			left: 0;
+			width: 20rem;
+			height: 2rem;
+			color: $grey;
+			font-size: 1.2rem;
+		}
+	}
+	.no-height-holder{
+		height: auto;
+	}
+
+	
+}
+.ipt-error{
+	color:$brand-red;
+	.ipt-holder{
+		.v-ipt{
+			color:$brand-red;
+			border: 1px solid $brand-red;
+		}
+	}
+	
+}
+
+@media screen and (max-width: 320px){
+	.ipt-controll{
+		padding:0.5rem 1rem ;
+		.ipt-holder{
+			.v-ipt{
+				font-size: 1.2rem;
+			}
+		}
+	}
+}

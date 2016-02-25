@@ -1,0 +1,55 @@
+@charset "utf-8";
+//$text-red-banner:#f21276;
+//$banner-border:#ffcfa8;
+//$text-red:#f21377;
+//
+//$black:#000;
+//$grey-dark:#333;
+//$grey-little-dark:#666;
+//$grey:#999;
+//$grey-light:#ddd;
+//$white:#fff;
+//
+//$body-bg:#f2f2f2;
+//$head-bg:#fff;
+//$yellow:#fffee4;
+//$blue:#079fff;
+//$green:#66cc00;
+//$warn-red:#f21377;
+//$warm-grey-dark:#96a2b0;
+//$warm-gery:#ced3d8;
+//$list-active:#fafafa;
+
+$grey-base:              #000 !default;
+$grey-darker:            #333 !default; // #333
+$grey-dark:              #666 !default; // #666
+$grey:                   #999 !default; // #999
+$grey-light:             #ddd !default; // #ddd
+$grey-lighter:           #eee !default; // #eee
+$grey-lighter-1:         #f2f2f2 !default; // #f2f2f2
+$grey-lighter-2:         #fafafa !default; // #fafafa
+$grey-top:           	 #fff !default; // #fff
+
+$brand-primary:         #337ab7 !default; // #337ab7
+$brand-green:         	#66cc00 !default;
+$brand-yellow:          #fffee4 !default;
+$brand-blue:         	#079fff !default;
+$brand-red:          	#f21377 !default;
+$warm-grey-dark:#96a2b0;
+$warm-gery:#ced3d8;
+
+
+$font-family-sans-serif:  "Helvetica Regular",Helvetica,STHeiTi,Arial,sans-serif !default;
+
+
+$btn-font-weight:                normal !default;
+
+//** Disabled cursor for form controls and buttons.
+$cursor-disabled:                not-allowed !default;
+
+
+$touching-bg: #FCF3F3;
+
+
+
+

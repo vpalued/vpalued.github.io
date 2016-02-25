@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*字体图标*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-chevron-left{
+	display:inline-block;
+	transform: rotate(180deg);
+}
+.icon-chevron-right{
+	display:inline-block;
+	transform: rotate(0);
+}
+.icon-chevron-up{
+	display:inline-block;
+	transform: rotate(-90deg);
+}
+.icon-chevron-down{
+	display:inline-block;
+	transform: rotate(90deg);
+}
+
+.icon-chevron:before {
+	content: "\e902";
+}
+
+.icon-checks:before {
+	content: "\e900";
+}
+.icon-radius:before {
+	content: "\e901";
+}
+.icon-arrow:before {
+	content: "\e902";
+}
+.icon-cross:before {
+	content: "\e903";
+}
+.icon-tick:before {
+	content: "\e904";
+}
+.icon-notice:before {
+	content: "\e905";
+}
+.icon-delet:before {
+	content: "\e906";
+}
+.icon-warn:before {
+	content: "\e907";
+}
+.icon-success:before {
+	content: "\e908";
+}
+

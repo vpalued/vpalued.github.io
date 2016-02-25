@@ -1,0 +1,68 @@
+$padding: 1rem;
+
+.dialog-overlay{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+        z-index: 1000;
+        top: -100%;
+        display: table;
+        opacity:0;
+    .dialog-table-row{
+        display: table-row;
+    }
+    .dialog-table-cell{
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .dialog-content{
+        background: #fff;
+        display: inline-block;
+        position: relative;
+        width: 85%;
+        text-align: left;
+    }
+    .dialog-body{
+        padding: 0 $padding;
+        overflow-y: auto;
+        -webkit-overflow-scrolling:touch;
+        max-height: 300px;
+    }
+    .dialog-header{
+        padding:  0 $padding
+    }
+    .dialog-title{
+        padding: $padding 0;
+        border-bottom: 1px solid $grey-light;
+    }
+    .title{
+        font-size: 2rem;
+        color: $brand-red;
+    }
+    .close-btn{
+        float: right;
+        font-size: 2rem;
+        color: $grey-light;
+    }
+    .dialog-action{
+        height: 4rem;
+        background: #eee;
+        color: $grey-dark;
+        text-align: center;
+        line-height: 4rem;
+        font-size: 1.5rem;
+        box-sizing: border-box;
+    }
+    .action-left{
+        border-right: 1px solid $grey-light;
+    }
+    .action-right{
+    }
+    .dialog-footer{
+        height: 4rem;
+    }
+}
